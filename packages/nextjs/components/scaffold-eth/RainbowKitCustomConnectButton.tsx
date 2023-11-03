@@ -40,7 +40,7 @@ export const RainbowKitCustomConnectButton = () => {
             {(() => {
               if (!connected) {
                 return (
-                  <button className="btn btn-primary btn-sm" onClick={openConnectModal} type="button">
+                  <button className="btn btn-sm" onClick={openConnectModal} type="button">
                     Connect Wallet
                   </button>
                 );
@@ -94,7 +94,7 @@ export const RainbowKitCustomConnectButton = () => {
                   <div className="dropdown dropdown-end leading-3">
                     <label
                       tabIndex={0}
-                      className="btn btn-secondary btn-sm pl-0 pr-2 shadow-md dropdown-toggle gap-0 !h-auto"
+                      className="btn btn-sm pl-0 pr-2 shadow-md dropdown-toggle gap-0 !h-auto"
                     >
                       <BlockieAvatar address={account.address} size={30} ensImage={account.ensAvatar} />
                       <span className="ml-2 mr-1">{account.displayName}</span>
@@ -139,19 +139,7 @@ export const RainbowKitCustomConnectButton = () => {
                           <span className="whitespace-nowrap">View QR Code</span>
                         </label>
                       </li>
-                      <li>
-                        <button className="menu-item btn-sm !rounded-xl flex gap-3 py-3" type="button">
-                          <ArrowTopRightOnSquareIcon className="h-6 w-4 ml-2 sm:ml-0" />
-                          <a
-                            target="_blank"
-                            href={blockExplorerAddressLink}
-                            rel="noopener noreferrer"
-                            className="whitespace-nowrap"
-                          >
-                            View on Block Explorer
-                          </a>
-                        </button>
-                      </li>
+                    
                       <li>
                         <button
                           className="menu-item text-error btn-sm !rounded-xl flex gap-3 py-3"

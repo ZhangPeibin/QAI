@@ -7,31 +7,28 @@ const Home: NextPage = () => {
   return (
     <>
       <MetaHeader />
-      <div className="flex items-center flex-col flex-grow pt-10">
-        <div className="px-5">
+      <div className="flex items-center flex-col flex-grow" style={{
+        backgroundImage: `url("/a.svg")`,
+        backgroundRepeat: "repeat"
+      }}>
+        <div className="px-5" >
           <h1 className="text-center mb-8">
-            <span className="block text-2xl mb-2">Welcome to</span>
-            <span className="block text-4xl font-bold">Scaffold-ETH 2</span>
+            <p className="text-4xl m-0 font-medium mt-1">Q.AI.A</p>
           </h1>
-          <p className="text-center text-lg">
-            Get started by editing{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/nextjs/pages/index.tsx
-            </code>
-          </p>
-          <p className="text-center text-lg">
-            Edit your smart contract{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              YourContract.sol
-            </code>{" "}
-            in{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/hardhat/contracts
-            </code>
-          </p>
+          <div className="flex flex-col justify-center items-center gap-8 mb-14 px-4">
+            <h1 className="text-center text-3xl lg:text-5xl max-w-md lg:max-w-2xl  px-3  m-0 ">
+              Answer AI you will Earn Blockchain Rewards
+            </h1>
+
+            <p className="m-0 text-center max-w-xl px-3">
+              A platform for learning and making money by answering questions based on AI and blockchain
+            </p>
+           
+          </div>
+
         </div>
 
-        <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
+        <div className="flex-grow  w-full mt-16 px-8 py-12">
           <div className="flex justify-center items-center gap-12 flex-col sm:flex-row">
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <BugAntIcon className="h-8 w-8 fill-secondary" />
@@ -56,6 +53,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

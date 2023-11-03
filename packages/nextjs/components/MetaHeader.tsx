@@ -14,10 +14,9 @@ type MetaHeaderProps = {
 const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/` : "/";
 
 export const MetaHeader = ({
-  title = "Scaffold-ETH 2 App",
-  description = "Built with 🏗 Scaffold-ETH 2",
+  title = "AI & Blockchain Answering Tp learning",
+  description = "Built with QAI",
   image = "thumbnail.jpg",
-  twitterCard = "summary_large_image",
   children,
 }: MetaHeaderProps) => {
   const imageUrl = baseUrl + image;
@@ -44,9 +43,10 @@ export const MetaHeader = ({
           <meta name="twitter:image" content={imageUrl} />
         </>
       )}
-      {twitterCard && <meta name="twitter:card" content={twitterCard} />}
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-      {children}
-    </Head>
-  );
+    
+          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet"></link>
+          {children}
+        </Head>
+        );
 };

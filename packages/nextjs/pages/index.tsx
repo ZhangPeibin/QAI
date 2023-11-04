@@ -16,9 +16,14 @@ const Home: NextPage = () => {
             <p className="text-4xl m-0 font-medium mt-1">Q.AI.A</p>
           </h1>
           <div className="flex flex-col justify-center items-center gap-8 mb-14 px-4">
-            <h1 className="text-center text-3xl lg:text-5xl max-w-md lg:max-w-2xl  px-3  m-0 ">
-              Answer AI you will Earn Blockchain Rewards
+            <h2  style={{lineHeight:0}}  className="text-center text-3xl lg:text-5xl max-w-md lg:max-w-2xl  px-3  mt-12 py-0" 
+              >
+              Answer AI Question   
+            </h2>
+            <h1 className="text-center text-3xl lg:text-5xl max-w-md lg:max-w-2xl  px-3 py-0 m-0 ">
+              To Earn Blockchain Rewards
             </h1>
+            
 
             <p className="m-0 text-center max-w-xl px-3">
               A platform for learning and making money by answering questions based on AI and blockchain

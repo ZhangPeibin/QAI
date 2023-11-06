@@ -1788,6 +1788,7 @@ __metadata:
     react-hot-toast: ^2.4.0
     tailwindcss: ^3.3.3
     type-fest: ^4.6.0
+    typed.js: ^2.0.16
     typescript: ^5.1.6
     use-debounce: ^8.0.4
     usehooks-ts: ^2.7.2
@@ -13394,6 +13395,13 @@ __metadata:
   bin:
     typechain: dist/cli/cli.js
   checksum: d8e05c4437d5ba54fd5dea28c20884c2aa259e911c6ffc9d1768a229633c661f378439e4b0a1a21f33372e8ed82adc324583381cde16f199af9440792a95da88
+  languageName: node
+  linkType: hard
+
+"typed.js@npm:^2.0.16":
+  version: 2.0.132
+  resolution: "typed.js@npm:2.0.132"
+  checksum: f4a612b44f9d0d3cc8dc79739b6b1a22a021941a0889b9ae57edbbede0a2bc1ea698c2ad5cf1814e42859a4fcca2fae87b222ceca2a3f7425ece9affa1ff55c6
   languageName: node
   linkType: hard
 

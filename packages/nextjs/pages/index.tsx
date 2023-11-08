@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { NextPage } from "next";
-import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { BugAntIcon, CubeTransparentIcon, GifIcon, GiftIcon, MagnifyingGlassIcon, NoSymbolIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { Welcome } from "~~/components/Welcome";
 
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
-
+  
         <div className="flex mb-4 mt-4">
           <div className="rounded-tr-3xl rounded-tl-xl rounded-br-xl rounded-bl-3xl bg-teal-300 p-4  mr-2"><a>Get Started</a></div>
           <div className="rounded-tl-3xl rounded-tr-xl rounded-bl-xl rounded-br-3xl bg-pink-300 p-4 ml-2"><a>Get Started</a></div>
@@ -42,23 +42,21 @@ const Home: NextPage = () => {
         <div className="flex-grow  w-full mt-16 px-8 py-12">
           <div className="flex justify-center items-center gap-12 flex-col sm:flex-row">
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
-              <BugAntIcon className="h-8 w-8 fill-secondary" />
+              <NoSymbolIcon className="h-8 w-8 " />
               <p>
-                Tinker with your smart contract using the{" "}
-                <Link href="/debug" passHref className="link">
-                  Debug Contract
-                </Link>{" "}
-                tab.
+              Grow your blockchain knowledge using <b>ChatGPT</b>.
               </p>
             </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
-              <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
+              <CubeTransparentIcon className="h-8 w-8 " />
               <p>
-                Explore your local transactions with the{" "}
-                <Link href="/blockexplorer" passHref className="link">
-                  Block Explorer
-                </Link>{" "}
-                tab.
+              Browse your learning records on the <b>blockchain</b>.
+              </p>
+            </div>
+            <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
+              <GiftIcon className="h-8 w-8 " />
+              <p>
+              Earn <b>points</b> by completing learning progress
               </p>
             </div>
           </div>

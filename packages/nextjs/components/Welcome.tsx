@@ -7,7 +7,7 @@ export function Welcome() {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: [' ❓ AI asks you questions <br>`🙋🏻 You answer the questions correctly` <br>`👏 Go to next round`<br>😎 Win gift 🎉🎉🎉`'],
+            strings: [' ⚠️ Rules<br>🥺 AI asks you questions <br>`🙋🏻 You answer the questions correctly` <br>`👏 Go to next round`<br>😎 Win gift 🎉🎉🎉`'],
             typeSpeed: 70,
             backSpeed: 0,
             backDelay: 500,
